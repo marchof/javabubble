@@ -42,6 +42,7 @@ Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
+x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
 
