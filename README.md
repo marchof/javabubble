@@ -24,6 +24,7 @@ Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
+@ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
