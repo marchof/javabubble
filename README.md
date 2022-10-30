@@ -56,12 +56,13 @@ Twitter              | Fediverse                           | Name
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
-@saturnism           | @saturnism@mastodon.social          | Ray Tsang
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
 @rotnroll666         | @rotnroll666@mastodon.social        | Michael Simons
 @royvanrijn          | @royvanrijn@mastodon.social         | Roy van Rijn
 @SandraParsick       | @sparsick@mastodon.social           | Sandra Parsick
+@saturnism           | @saturnism@mastodon.social          | Ray Tsang
+@Sharat_Chander      | @Sharat_Chander@mastodon.social     | Sharat Chander
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
 @sippsack            | @sippsack@mastodon.social           | Falk Sippach
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
