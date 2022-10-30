@@ -16,7 +16,7 @@ create a annoying business model.
 
 Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
-@aalmiray            | @aalmiray@mastodon.social           | Andres Almiray   
+@aalmiray            | @aalmiray@mastodon.social           | Andres Almiray
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
@@ -24,10 +24,14 @@ Twitter              | Fediverse                           | Name
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
+@hannotify           | @hannotify@mastodon.social          | Hanno Embregts
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
+@HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
+@IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
+@jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
@@ -37,17 +41,20 @@ Twitter              | Fediverse                           | Name
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
 @mkheck              | @mkheck@mastodon.cloud              | Mark Heckler
 @myfear              | @myfear@mastodon.online             | Markus Eisele
+@neugens             | @MarioTorre@mastodon.social         | Mario Torre
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
-@robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe 
+@robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
+@royvanrijn          | @royvanrijn@mastodon.social         | Roy van Rijn
+@SandraParsick       | @sparsick@mastodon.social           | Sandra Parsick
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
+@sippsack            | @sippsack@mastodon.social           | Falk Sippach
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
+@TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
-
-
 
