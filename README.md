@@ -16,6 +16,7 @@ create a annoying business model.
 
 Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
+@aalmiray            | @aalmiray@mastodon.social           | Andres Almiray   
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
