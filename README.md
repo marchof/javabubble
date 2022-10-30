@@ -45,6 +45,7 @@ Twitter              | Fediverse                           | Name
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
 @kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
+@ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
