@@ -57,6 +57,7 @@ Twitter              | Fediverse                           | Name
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
+@rotnroll666         | @rotnroll666@mastodon.social        | Michael Simons
 @royvanrijn          | @royvanrijn@mastodon.social         | Roy van Rijn
 @SandraParsick       | @sparsick@mastodon.social           | Sandra Parsick
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
