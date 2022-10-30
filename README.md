@@ -49,6 +49,7 @@ Twitter              | Fediverse                           | Name
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
+@matkar              | @matkar@mastodon.social             | Mattias Karlsson
 @maxandersen         | @maxandersen@mastodon.social        | Max Rydahl Andersen
 @McPringle           | @McPringle@mastodon.social          | Marcus Fihlon
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
