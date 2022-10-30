@@ -21,6 +21,7 @@ Twitter              | Fediverse                           | Name
 @bazlur_rahman       | @bazlur_rahman@mastodon.online      | Bazlur Rahman
 @BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
+@chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
 @evanchooly          | @evanchooly@mastodon.social         | Justin Lee
