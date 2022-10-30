@@ -18,6 +18,7 @@ Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
 @aalmiray            | @aalmiray@mastodon.social           | Andres Almiray
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
+@bazlur_rahman       | @bazlur_rahman@mastodon.online      | Bazlur Rahman
 @BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
