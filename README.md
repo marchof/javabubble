@@ -22,9 +22,12 @@ Twitter              | Fediverse                           | Name
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
+@evanchooly          | @evanchooly@mastodon.social         | Justin Lee
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
+@gbevin              | @gbevin@mastodon.social             | Geert Bevin
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
 @glv                 | @glv@mastodon.social                | Glenn Vanderburg
+@_godin_             | @godin@mastodon.social              | Evgeny Mandrikov
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
 @hannotify           | @hannotify@mastodon.social          | Hanno Embregts
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
@@ -60,6 +63,7 @@ Twitter              | Fediverse                           | Name
 @sippsack            | @sippsack@mastodon.social           | Falk Sippach
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
+@stilkov             | @stilkov@mastodon.social            | Stefan Tilkov
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
