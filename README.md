@@ -24,6 +24,7 @@ Twitter              | Fediverse                           | Name
 @chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
+@evacchi             | @evacchi@mastodon.social            | Edoardo Vacchi
 @evanchooly          | @evanchooly@mastodon.social         | Justin Lee
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
 @gbevin              | @gbevin@mastodon.social             | Geert Bevin
