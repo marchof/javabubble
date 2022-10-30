@@ -18,31 +18,39 @@ Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
 @aalmiray            | @aalmiray@mastodon.social           | Andres Almiray
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
+@BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
+@glv                 | @glv@mastodon.social                | Glenn Vanderburg
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
 @hannotify           | @hannotify@mastodon.social          | Hanno Embregts
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
+@holly_cummins       | @holly_cummins@mastodon.social      | Holly Cummins
+@icougil             | @icougil@mastodon.social            | Nacho Cougil
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
+@kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
 @maxandersen         | @maxandersen@mastodon.social        | Max Rydahl Andersen
+@McPringle           | @McPringle@mastodon.social          | Marcus Fihlon
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
+@mrhaki              | @mrhaki@mastodon.online             | Hubert Klein Ikkink
 @mkheck              | @mkheck@mastodon.cloud              | Mark Heckler
 @myfear              | @myfear@mastodon.online             | Markus Eisele
 @neugens             | @MarioTorre@mastodon.social         | Mario Torre
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
+@odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
@@ -55,6 +63,7 @@ Twitter              | Fediverse                           | Name
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
+@synecdotal          | @synec@mastodon.social              | John Spurling
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
 
