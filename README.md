@@ -48,6 +48,7 @@ Twitter              | Fediverse                           | Name
 @ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
+@MGrzejszczak        | @marcin_grzejszczak@mastodon.social | Marcin Grzejszczak
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
 @matkar              | @matkar@mastodon.social             | Mattias Karlsson
 @maxandersen         | @maxandersen@mastodon.social        | Max Rydahl Andersen
