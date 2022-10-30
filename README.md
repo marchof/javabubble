@@ -55,6 +55,7 @@ Twitter              | Fediverse                           | Name
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
+@saturnism           | @saturnism@mastodon.social          | Ray Tsang
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
 @rotnroll666         | @rotnroll666@mastodon.social        | Michael Simons
