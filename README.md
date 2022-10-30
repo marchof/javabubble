@@ -23,11 +23,11 @@ Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
+@hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
-@hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
@@ -39,6 +39,7 @@ Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
+@robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe 
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
