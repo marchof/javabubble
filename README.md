@@ -31,7 +31,7 @@ Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
 @mkheck              | @mkheck@mastodon.cloud              | Mark Heckler
 @myfear              | @myfear@mastodon.online             | Markus Eisele
-@nipafx              | @nipafx@mastodon.technology         | Nicolai Parlog
+@nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
