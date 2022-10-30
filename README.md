@@ -18,7 +18,7 @@ Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
-Sebastian Daschner   | @daschners@mastodon.social          | Sebastian Daschner
+@DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
