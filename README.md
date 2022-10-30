@@ -6,8 +6,12 @@ software technology I created this backup list for a potential alternative platf
 
 Please feel free to create PRs to add yourself or Java people you know.
 
-*I do not promote any platform over another. The sole purpose of this list is
-having a backup if one of them stops working for me.*
+**Personal remarks:**
+
+* I do not promote any platform over another. The sole purpose of this list is
+having a backup if one of them stops working for me.
+* Please consider sponsoring your fediverse server operator so they don't have to
+create a annoying business model.
 
 
 Twitter              | Fediverse                           | Name
