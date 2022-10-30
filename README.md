@@ -79,5 +79,6 @@ x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
 @synecdotal          | @synec@mastodon.social              | John Spurling
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
+@tnurkiewicz         | @nurkiewicz@mastodon.social         | Tomasz Nurkiewicz
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
 
