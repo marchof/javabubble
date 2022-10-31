@@ -74,6 +74,7 @@ Twitter              | Fediverse                           | Name
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
+@philipp_hauer       | @philipp_hauer@mastodon.online      | Philipp Hauer
 @reza_rahman         | @reza_rahman@mastodon.online        | Reza Rahman
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
@@ -92,6 +93,7 @@ Twitter              | Fediverse                           | Name
 x                    | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
 @synecdotal          | @synec@mastodon.social              | John Spurling
+@tastapod            | @tastapod@mastodon.social           | Daniel Terhorst-North
 @tnurkiewicz         | @nurkiewicz@mastodon.social         | Tomasz Nurkiewicz
 @tomsontom           | @tomsontom@mastodon.social          | Tom Schindl
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
