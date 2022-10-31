@@ -28,6 +28,7 @@ Twitter              | Fediverse                           | Name
 @BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
 @b0rk                | @b0rk@mastodon.social               | Julia Evans
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
+@CedricChampeau      | @melix@mastodon.xyz                 | Cédric Champeau
 @chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
