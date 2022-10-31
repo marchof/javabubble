@@ -16,8 +16,12 @@ create a annoying business model.
 
 ## Handle Mapping
 
-Please keep the alphabetic ordering by Twitter handle when adding more people. Thanks!
+From the table below a [following.csv](https://github.com/marchof/javabubble/releases/download/latest-exports/following.csv) CSV file is automatically created that we can import directly into Mastodon.
 
+
+
+
+*Please keep the alphabetic ordering by Twitter handle when adding more people. Thanks!*
 
 Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
