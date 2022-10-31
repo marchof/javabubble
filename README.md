@@ -50,6 +50,7 @@ Twitter              | Fediverse                           | Name
 @ithempel            | @sepp@chaos.social                  | Sebastian Hempel
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
+@jasondlee           | @jasondlee@mastodon.cloud           | Jason Lee
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @jean_bisutti        | @jean_bisutti@mastodon.social       | Jean Bisutti
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
