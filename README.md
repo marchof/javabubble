@@ -77,6 +77,7 @@ Twitter              | Fediverse                           | Name
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
 @mrhaki              | @mrhaki@mastodon.online             | Hubert Klein Ikkink
 @mkheck              | @mkheck@mastodon.cloud              | Mark Heckler
+@mthmulders          | @mthmulders@mastodon.online         | Maarten Mulders
 @myfear              | @myfear@mastodon.online             | Markus Eisele
 @neugens             | @MarioTorre@mastodon.social         | Mario Torre
 @nicolas_frankel     | @frankel@mastodon.top               | Nicolas Fränkel
@@ -109,6 +110,7 @@ x                    | @svenreimers@mastodon.social        | Sven Reimers
 @synecdotal          | @synec@mastodon.social              | John Spurling
 @tastapod            | @tastapod@mastodon.social           | Daniel Terhorst-North
 @tnurkiewicz         | @nurkiewicz@mastodon.social         | Tomasz Nurkiewicz
+@TCoolsIT            | @TCoolsIT@mastodon.social           | Tom Cools
 @tomsontom           | @tomsontom@mastodon.social          | Tom Schindl
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
