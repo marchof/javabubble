@@ -61,6 +61,7 @@ Twitter              | Fediverse                           | Name
 @jean_bisutti        | @jean_bisutti@mastodon.social       | Jean Bisutti
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @JeffAtSun           | @jeff_dinkins@mastodon.social       | Jeff Dinkins
+@johanvos            | @johanvos@mastodon.social           | Johan Vos
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
 @jpbempel            | @jpbempel@mastodon.online          | Jean-Philippe Bempel
 @jponge              | @jponge@mastodon.social             | Julien Ponge
