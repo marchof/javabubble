@@ -94,6 +94,7 @@ Twitter              | Fediverse                           | Name
 @reza_rahman         | @reza_rahman@mastodon.online        | Reza Rahman
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
+@rodrigograciano     | @graciano@mastodon.social           | Rodrigo Graciano
 @rotnroll666         | @rotnroll666@mastodon.social        | Michael Simons
 @royvanrijn          | @royvanrijn@mastodon.social         | Roy van Rijn
 @SandraParsick       | @sparsick@mastodon.social           | Sandra Parsick
