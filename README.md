@@ -57,12 +57,13 @@ Twitter              | Fediverse                           | Name
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jasondlee           | @jasondlee@mastodon.cloud           | Jason Lee
+@Java_Champions      | @JavaChampions@mastodon.cloud       | Java Champions
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @jean_bisutti        | @jean_bisutti@mastodon.social       | Jean Bisutti
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @JeffAtSun           | @jeff_dinkins@mastodon.social       | Jeff Dinkins
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
-@jpbempel            | @jpbempel@mastodon.online          | Jean-Philippe Bempel
+@jpbempel            | @jpbempel@mastodon.online           | Jean-Philippe Bempel
 @jponge              | @jponge@mastodon.social             | Julien Ponge
 @kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
