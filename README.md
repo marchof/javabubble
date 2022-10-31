@@ -52,6 +52,7 @@ Twitter              | Fediverse                           | Name
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
+@ithempel            | @sepp@chaos.social                  | Sebastian Hempel
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
 @matkar              | @matkar@mastodon.social             | Mattias Karlsson
