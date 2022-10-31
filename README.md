@@ -35,6 +35,7 @@ Twitter              | Fediverse                           | Name
 @evacchi             | @evacchi@mastodon.social            | Edoardo Vacchi
 @evanchooly          | @evanchooly@mastodon.social         | Justin Lee
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
+@FrankDelporte       | @FrankDelporte@mastodon.social      | Frank Delporte
 @gbevin              | @gbevin@mastodon.social             | Geert Bevin
 @GerdAschemann       | @ascheman@mastodon.social           | Gerd Aschemann
 @glv                 | @glv@mastodon.social                | Glenn Vanderburg
