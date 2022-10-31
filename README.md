@@ -62,6 +62,7 @@ Twitter              | Fediverse                           | Name
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @JeffAtSun           | @jeff_dinkins@mastodon.social       | Jeff Dinkins
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
+@jpbempel            | @@jpbempel@mastodon.online          | Jean-Philippe Bempel
 @jponge              | @jponge@mastodon.social             | Julien Ponge
 @kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
