@@ -41,6 +41,7 @@ Twitter              | Fediverse                           | Name
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
 @holly_cummins       | @holly_cummins@mastodon.social      | Holly Cummins
 @icougil             | @icougil@mastodon.social            | Nacho Cougil
+@ithempel            | @sepp@chaos.social                  | Sebastian Hempel
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
@@ -52,7 +53,6 @@ Twitter              | Fediverse                           | Name
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
-@ithempel            | @sepp@chaos.social                  | Sebastian Hempel
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
 @martinfowler        | @mfowler@toot.thoughtworks.com      | Martin Fowler
 @matkar              | @matkar@mastodon.social             | Mattias Karlsson
