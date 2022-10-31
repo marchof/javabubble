@@ -79,6 +79,7 @@ Twitter              | Fediverse                           | Name
 @mkheck              | @mkheck@mastodon.cloud              | Mark Heckler
 @myfear              | @myfear@mastodon.online             | Markus Eisele
 @neugens             | @MarioTorre@mastodon.social         | Mario Torre
+@nicolas_frankel     | @frankel@mastodon.top               | Nicolas Fränkel
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @noctarius2k         | @noctarius2k@mastodon.online        | Christoph Engelbert
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
