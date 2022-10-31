@@ -77,6 +77,7 @@ Twitter              | Fediverse                           | Name
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @philipp_hauer       | @philipp_hauer@mastodon.online      | Philipp Hauer
+@rafaelcodes         | @rafaelcodes@mastodon.social        | Rafael Winterhalter
 @reza_rahman         | @reza_rahman@mastodon.online        | Reza Rahman
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
