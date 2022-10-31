@@ -26,6 +26,7 @@ Twitter              | Fediverse                           | Name
 @alina_yurenko       | @alina_yurenko@mastodon.online      | Alina Yurenko
 @bazlur_rahman       | @bazlur_rahman@mastodon.online      | Bazlur Rahman
 @bclozel             | @bclozel@mamot.fr                   | Brian Clozel
+@mjduigou            | @bondolo@mastodon.social            | Mike Duigou
 @BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
 @b0rk                | @b0rk@mastodon.social               | Julia Evans
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
