@@ -104,3 +104,4 @@ x                    | @svenreimers@mastodon.social        | Sven Reimers
 @tomsontom           | @tomsontom@mastodon.social          | Tom Schindl
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
+@nicolas_frankel     | @frankel@mastodon.top               | Nicolas Fränkel
