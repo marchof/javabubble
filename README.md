@@ -23,6 +23,7 @@ Twitter              | Fediverse                           | Name
 -------------------- | ----------------------------------- | ---------------------
 @aalmiray            | @aalmiray@mastodon.social           | Andres Almiray
 @alexsnaps           | @alexsnaps@mastodon.social          | Alex Snaps
+@alina_yurenko       | @alina_yurenko@mastodon.online      | Alina Yurenko
 @bazlur_rahman       | @bazlur_rahman@mastodon.online      | Bazlur Rahman
 @bclozel             | @bclozel@mamot.fr                   | Brian Clozel
 @BrianVerm           | @brianverm@mastodon.social          | Brian Vermeer
