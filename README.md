@@ -34,6 +34,7 @@ Twitter              | Fediverse                           | Name
 @_godin_             | @godin@mastodon.social              | Evgeny Mandrikov
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
 @hannotify           | @hannotify@mastodon.social          | Hanno Embregts
+@habuma              | @habuma@mastodon.social             | Craig Walls
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
