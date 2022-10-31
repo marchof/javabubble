@@ -30,6 +30,7 @@ Twitter              | Fediverse                           | Name
 @brunoborges         | @brunoborges@mastodon.social        | Bruno Borges
 @CedricChampeau      | @melix@mastodon.xyz                 | Cédric Champeau
 @chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
+@clementplop         | @clementplop@mastodon.social        | Clement Escoffier
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
 @evacchi             | @evacchi@mastodon.social            | Edoardo Vacchi
@@ -44,11 +45,13 @@ Twitter              | Fediverse                           | Name
 @habuma              | @habuma@mastodon.social             | Craig Walls
 @hannotify           | @hannotify@mastodon.social          | Hanno Embregts
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
+@headius             | @headius@mastodon.social            | Charles Oliver Nutter
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
 @holly_cummins       | @holly_cummins@mastodon.social      | Holly Cummins
 @icougil             | @icougil@mastodon.social            | Nacho Cougil
 @ithempel            | @sepp@chaos.social                  | Sebastian Hempel
+@ivar_grimstad       | @ivar_grimstad@mastodon.social      | Ivar Grimstad
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jasondlee           | @jasondlee@mastodon.cloud           | Jason Lee
@@ -57,6 +60,7 @@ Twitter              | Fediverse                           | Name
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
 @JeffAtSun           | @jeff_dinkins@mastodon.social       | Jeff Dinkins
 @joshbloch           | @joshbloch@mastodon.social          | Joshua Bloch
+@jponge              | @jponge@mastodon.social             | Julien Ponge
 @kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
 @ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
