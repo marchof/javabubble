@@ -89,6 +89,7 @@ Twitter              | Fediverse                           | Name
 @OliverLibutzki      | @OliverLibutzki@mastodon.social     | Oliver Libutzki 
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
+@philross            | @philross@mastodon.social           | Phillip Ross
 @philipp_hauer       | @philipp_hauer@mastodon.online      | Philipp Hauer
 @pintoch             | @pintoch@mamot.fr                   | Antonin Delpeuch
 @rafaelcodes         | @rafaelcodes@mastodon.social        | Rafael Winterhalter
