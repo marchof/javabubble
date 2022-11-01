@@ -133,3 +133,4 @@ Twitter              | Fediverse                           | Name
 @tomsontom           | @tomsontom@mastodon.social          | Tom Schindl
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
+@tuxtor              | @tuxtor@fosstodon.org               | Víctor Orozco
