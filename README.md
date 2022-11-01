@@ -105,6 +105,7 @@ Twitter              | Fediverse                           | Name
 @philipp_hauer       | @philipp_hauer@mastodon.online      | Philipp Hauer
 @pintoch             | @pintoch@mamot.fr                   | Antonin Delpeuch
 @rafaelcodes         | @rafaelcodes@mastodon.social        | Rafael Winterhalter
+@reinhapa            | @reinhapa@mastodon.social           | Patrick Reinhart
 @reza_rahman         | @reza_rahman@mastodon.online        | Reza Rahman
 @rgransberger        | @rgransberger@mastodon.social       | Rabea Gransberger
 @robinjayasinghe     | @rjayasinghe@chaos.social           | Robin Jayasinghe
