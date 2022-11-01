@@ -94,6 +94,7 @@ Twitter              | Fediverse                           | Name
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @OliverLibutzki      | @OliverLibutzki@mastodon.social     | Oliver Libutzki 
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
+@overheadhunter      | @overheadhunter@mastodon.social     | Sebastian Stenzel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @philross            | @philross@mastodon.social           | Phillip Ross
 @philipp_hauer       | @philipp_hauer@mastodon.online      | Philipp Hauer
