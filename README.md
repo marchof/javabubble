@@ -122,7 +122,7 @@ Twitter              | Fediverse                           | Name
 @stilkov             | @stilkov@mastodon.social            | Stefan Tilkov
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 @sur3shg             | @sureshg@mastodon.social            | Suresh G
-x                    | @svenreimers@mastodon.social        | Sven Reimers
+@SvenNB              | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
 @synecdotal          | @synec@mastodon.social              | John Spurling
 @tastapod            | @tastapod@mastodon.social           | Daniel Terhorst-North
