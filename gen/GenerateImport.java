@@ -21,7 +21,7 @@ public class GenerateImport {
           .map(pattern::matcher)
           .flatMap(Matcher::results)
           .map(MatchResult::group)
-          .map(id -> id + ",true,false,")
+          .map(id -> id.replaceAll("`", "") + ",true,false,")
           .forEach(System.out::println);
     }
   }
