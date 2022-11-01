@@ -39,6 +39,7 @@ Twitter              | Fediverse                           | Name
 @chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
 @clementplop         | @clementplop@mastodon.social        | Clement Escoffier
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
+@debugagent          | @debugagent@mastodon.social         | Shai Almog
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
 @edeandrea           | @edeandrea@mastodon.social          | Eric Deandrea
 @evacchi             | @evacchi@mastodon.social            | Edoardo Vacchi
