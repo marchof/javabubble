@@ -2,9 +2,11 @@
 
 I love the welcoming atmosphere of the Java folks I got to know over the last
 decades. To continue having a welcoming and safe place to learn about Java and
-software technology I created this backup list for a potential alternative platform.
+software technology I created this backup list for a potential alternative
+platform with the help of the Java community.
 
-Please feel free to create PRs to add yourself or Java people you know.
+Please feel free to create PRs to add yourself or Java people you know. Also if
+you don't want your name listed here please drop me a message or open a PR.
 
 **Personal remarks:**
 
