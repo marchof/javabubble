@@ -80,8 +80,8 @@ Twitter              | Fediverse                           | Name
 @matkar              | @matkar@mastodon.social             | Mattias Karlsson
 @maxandersen         | @maxandersen@mastodon.social        | Max Rydahl Andersen
 @McPringle           | @McPringle@mastodon.social          | Marcus Fihlon
-@MGrzejszczak        | @marcin_grzejszczak@mastodon.social | Marcin Grzejszczak
 @mesirii             | @mesirii@chaos.social               | Michael Hunger
+@MGrzejszczak        | @marcin_grzejszczak@mastodon.social | Marcin Grzejszczak
 @mjduigou            | @bondolo@mastodon.social            | Mike Duigou
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
 @mrhaki              | @mrhaki@mastodon.online             | Hubert Klein Ikkink
