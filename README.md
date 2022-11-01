@@ -112,6 +112,7 @@ Twitter              | Fediverse                           | Name
 @rotnroll666         | @rotnroll666@mastodon.social        | Michael Simons
 @royvanrijn          | @royvanrijn@mastodon.social         | Roy van Rijn
 @SandraParsick       | @sparsick@mastodon.social           | Sandra Parsick
+@SanneGrinovero      | @sanne@fosstodon.org                | Sanne Grinovero
 @saturnism           | @saturnism@mastodon.social          | Ray Tsang
 @Sharat_Chander      | @Sharat_Chander@mastodon.social     | Sharat Chander
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
