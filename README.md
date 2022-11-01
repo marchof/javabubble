@@ -40,6 +40,7 @@ Twitter              | Fediverse                           | Name
 @clementplop         | @clementplop@mastodon.social        | Clement Escoffier
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
+@edeandrea           | @edeandrea@mastodon.social          | Eric Deandrea
 @evacchi             | @evacchi@mastodon.social            | Edoardo Vacchi
 @evanchooly          | @evanchooly@mastodon.social         | Justin Lee
 @ewolff              | @ewolff@mastodon.social             | Eberhard Wolff
