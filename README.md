@@ -51,6 +51,7 @@ Twitter              | Fediverse                           | Name
 @_godin_             | @godin@mastodon.social              | Evgeny Mandrikov
 @grobmeier           | @grobmeier@mastodon.social          | Christian Grobmeier
 @gsaslis             | @yorgos_@mastodon.social            | Yorgos Saslis
+@gunnarmorling       | @gunnarmorling@mastodon.online      | Gunnar Morling
 @habuma              | @habuma@mastodon.social             | Craig Walls
 @hannotify           | @hannotify@mastodon.social          | Hanno Embregts
 @hansolo_            | @hansolo_@mastodon.social           | Gerrit Grunwald
