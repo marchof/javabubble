@@ -121,6 +121,7 @@ Twitter              | Fediverse                           | Name
 @sippsack            | @sippsack@mastodon.social           | Falk Sippach
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
+@starbuxman          | @starbuxman@mastodon.online         | Josh Long
 @stilkov             | @stilkov@mastodon.social            | Stefan Tilkov
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 @sur3shg             | @sureshg@mastodon.social            | Suresh G
@@ -134,3 +135,4 @@ Twitter              | Fediverse                           | Name
 @TonyPrintezis       | @TonyPrintezis@mastodon.social      | Tony Printezis
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
 @tuxtor              | @tuxtor@fosstodon.org               | Víctor Orozco
+@yanaga              | @yanaga@mastodon.social             | Edson Yanaga
