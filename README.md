@@ -119,6 +119,7 @@ Twitter              | Fediverse                           | Name
 @saturnism           | @saturnism@mastodon.social          | Ray Tsang
 @Sharat_Chander      | @Sharat_Chander@mastodon.social     | Sharat Chander
 @simas_ch            | @SimonMartinelli@mastodon.social    | Simon Martinelli
+@simonebordet        | @simonebordet@mastodon.online       | Simone Bordet
 @sippsack            | @sippsack@mastodon.social           | Falk Sippach
 @sormuras            | @sormuras@mastodon.cloud            | Christian Stein
 @speakjava           | @speakjava@mastodon.social          | Simon Ritter
