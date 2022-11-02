@@ -65,6 +65,7 @@ Twitter              | Fediverse                           | Name
 @ivar_grimstad       | @ivar_grimstad@mastodon.social      | Ivar Grimstad
 @IvoNet              | @IvoNet@mastodon.social             | Ivo Woltring
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
+@jakesmolka          | @jakesmolka@mastodon.online         | Jake Smolka
 @jasondlee           | @jasondlee@mastodon.cloud           | Jason Lee
 @Java_Champions      | @JavaChampions@mastodon.cloud       | Java Champions
 @javahippie          | @javahippie@freiburg.social         | Tim Zöller
