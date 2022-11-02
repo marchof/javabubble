@@ -98,7 +98,7 @@ Twitter              | Fediverse                           | Name
 @nipafx              | @nipafx@mastodon.social             | Nicolai Parlog
 @noctarius2k         | @noctarius2k@mastodon.online        | Christoph Engelbert
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
-@OliverLibutzki      | @OliverLibutzki@mastodon.social     | Oliver Libutzki 
+@OliverLibutzki      | @oliver@libutzki.de                 | Oliver Libutzki 
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
 @overheadhunter      | @overheadhunter@mastodon.social     | Sebastian Stenzel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
