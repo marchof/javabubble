@@ -81,6 +81,7 @@ Twitter              | Fediverse                           | Name
 @jponge              | @jponge@mastodon.social             | Julien Ponge
 @kaitoedter          | @kaitoedter@mastodon.social         | Kai Tödter
 @kittylyst           | @kittylyst@mastodon.social          | Ben Evans
+@lhochet             | @lhochet@gts.lhochet.dev            | Ludovic Hochet
 @ludovic_dev         | @ludovic_dev@mastodon.social        | Ludovic Henry
 @lukaseder           | @lukaseder@mastodon.social          | Lukas Eder
 @marcandsweep        | @marcandsweep@mastodon.social       | Marc R. Hoffmann
