@@ -38,6 +38,7 @@ Twitter              | Fediverse                           | Name
 @CedricChampeau      | @melix@mastodon.xyz                 | Cédric Champeau
 @chriswhocodes       | @chriswhocodes@mastodon.social      | Chris Newland
 @clementplop         | @clementplop@mastodon.social        | Clement Escoffier
+@cppwfs              | @cppwfs@fosstodon.org               | Glenn Renfro 
 @DaschnerS           | @daschners@mastodon.social          | Sebastian Daschner
 @debugagent          | @debugagent@mastodon.social         | Shai Almog
 @delabassee          | @delabassee@mastodon.cloud          | David Delabassée
