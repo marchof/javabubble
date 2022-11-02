@@ -67,7 +67,7 @@ Twitter              | Fediverse                           | Name
 @ixchelruiz          | @ixchelruiz@mastodon.social         | Ixchel Ruiz
 @jasondlee           | @jasondlee@mastodon.cloud           | Jason Lee
 @Java_Champions      | @JavaChampions@mastodon.cloud       | Java Champions
-@javahippie          | @javahippie@freiburg.social.        | Tim Zöller
+@javahippie          | @javahippie@freiburg.social         | Tim Zöller
 @jddarcy             | @jddarcy@mastodon.social            | Joseph Darcy
 @jean_bisutti        | @jean_bisutti@mastodon.social       | Jean Bisutti
 @jeanneboyarsky      | @jeanneboyarsky@mastodon.social     | Jeanne Boyarsky
