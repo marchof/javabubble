@@ -60,6 +60,7 @@ Twitter              | Fediverse                           | Name
 @headius             | @headius@mastodon.social            | Charles Oliver Nutter
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
+@hendrikEbbers       | @hendrikEbbers@mastodon.cloud       | Hendrik Ebbers
 @holly_cummins       | @holly_cummins@mastodon.social      | Holly Cummins
 @icougil             | @icougil@mastodon.social            | Nacho Cougil
 @ithempel            | @sepp@chaos.social                  | Sebastian Hempel
@@ -130,6 +131,7 @@ Twitter              | Fediverse                           | Name
 @stilkov             | @stilkov@mastodon.social            | Stefan Tilkov
 @stuartmarks         | @stuartmarks@mastodon.social        | Stuart Marks
 @sur3shg             | @sureshg@mastodon.social            | Suresh G
+@susannebraun        | @susannebraun@mstdn.social          | Susanne Braun
 @SvenNB              | @svenreimers@mastodon.social        | Sven Reimers
 @SvenRuppert         | @svenruppert@mastodon.social        | Sven Ruppert
 @synecdotal          | @synec@mastodon.social              | John Spurling
