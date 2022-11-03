@@ -143,3 +143,4 @@ Twitter              | Fediverse                           | Name
 @trisha_gee          | @trishagee@mastodon.social          | Trisha Gee
 @tuxtor              | @tuxtor@fosstodon.org               | Víctor Orozco
 @yanaga              | @yanaga@mastodon.social             | Edson Yanaga
+@t_mammarella        | @t_mammarella@mastodon.social       | Theresa Mammarella
