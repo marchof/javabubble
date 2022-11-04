@@ -61,6 +61,7 @@ Twitter              | Fediverse                           | Name
 @heinzkabutz         | @HeinzKabutz@mastodon.social        | Heinz Kabutz
 @HelenJoScott        | @HelenJoScott@mastodon.social       | Helen Scott
 @hendrikEbbers       | @hendrikEbbers@mastodon.cloud       | Hendrik Ebbers
+@hirt                | @hirt@mastodon.social               | Marcus Hirt
 @holly_cummins       | @holly_cummins@mastodon.social      | Holly Cummins
 @icougil             | @icougil@mastodon.social            | Nacho Cougil
 @ithempel            | @sepp@chaos.social                  | Sebastian Hempel
