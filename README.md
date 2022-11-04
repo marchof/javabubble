@@ -92,7 +92,7 @@ Twitter              | Fediverse                           | Name
 @maxandersen         | @maxandersen@mastodon.social        | Max Rydahl Andersen
 @McPringle           | @McPringle@mastodon.social          | Marcus Fihlon
 @mesirii             | @mesirii@chaos.social               | Michael Hunger
-@MGrzejszczak        | @marcin_grzejszczak@fosstodon.org   | Marcin Grzejszczak
+@MGrzejszczak        | @toomuchcoding@fosstodon.org        | Marcin Grzejszczak
 @mjduigou            | @bondolo@mastodon.social            | Mike Duigou
 @mreinhold           | @mreinhold@mastodon.social          | Mark Reinhold
 @mrhaki              | @mrhaki@mastodon.online             | Hubert Klein Ikkink
