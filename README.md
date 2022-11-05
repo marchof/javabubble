@@ -106,6 +106,7 @@ Twitter              | Fediverse                           | Name
 @odrotbohm           | @odrotbohm@chaos.social             | Oliver Drotbohm
 @OliverLibutzki      | @oliver@libutzki.de                 | Oliver Libutzki 
 @omniprof            | @omniprof@mastodon.social           | Ken Fogel
+@ondromih            | @ondromih@mastodon.online           | Ondro Mihályi
 @overheadhunter      | @overheadhunter@mastodon.social     | Sebastian Stenzel
 @patbaumgartner      | @patbaumgartner@mastodon.social     | Patrick Baumgartner
 @philross            | @philross@mastodon.social           | Phillip Ross
