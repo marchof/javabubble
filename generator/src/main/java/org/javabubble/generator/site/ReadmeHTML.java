@@ -23,6 +23,8 @@ import static j2html.TagCreator.ul;
 
 import java.io.IOException;
 import java.io.Writer;
+import java.util.Optional;
+import java.util.function.Function;
 
 import org.javabubble.generator.model.JavaBubble;
 import org.javabubble.generator.model.JavaPerson;
@@ -112,7 +114,8 @@ class ReadmeHTML extends TextArtifact {
 						thead(tr( //
 								th("Name"), //
 								th("Fediverse"), //
-								th("Twitter") //
+								th("Twitter"), //
+								th("GitHub") //
 						)), //
 						tbody(bubble.people().stream().map(this::person).toArray(DomContent[]::new) //
 						)));
@@ -121,17 +124,16 @@ class ReadmeHTML extends TextArtifact {
 	private DomContent person(JavaPerson person) {
 		return tr( //
 				td(person.name()), //
-				td(fediverseLink(person)), //
-				td(twitterLink(person)));
+				td(handleWithLink(person, JavaPerson::fediverse, JavaPerson::fediverseLink)), //
+				td(handleWithLink(person, JavaPerson::twitter, JavaPerson::twitterLink)), //
+				td(handleWithLink(person, JavaPerson::github, JavaPerson::githubLink)));
 	}
 
-	private DomContent twitterLink(JavaPerson person) {
-		return a(person.twitter()).withHref("https://twitter.com/" + person.twitter().substring(1));
-	}
-
-	private DomContent fediverseLink(JavaPerson person) {
-		var parts = person.fediverse().split("@");
-		return a(person.fediverse()).withHref("https://%s/@%s".formatted(parts[2], parts[1]));
+	private DomContent handleWithLink(JavaPerson person, Function<JavaPerson, String> handlesrc,
+			Function<JavaPerson, Optional<String>> linksrc) {
+		return linksrc.apply(person) //
+				.map(link -> (DomContent) a(handlesrc.apply(person)).withHref(link)) //
+				.orElse(text("-"));
 	}
 
 }
