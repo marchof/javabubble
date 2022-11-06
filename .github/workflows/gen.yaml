@@ -1,7 +1,8 @@
 name: Generate Site
 
 on:
-  push
+  push:
+  pull_request:
 
 jobs:
   generate:
