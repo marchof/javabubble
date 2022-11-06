@@ -89,7 +89,7 @@ class ReadmeHTML extends TextArtifact {
 						li(text("""
 								I fully respect your privacy. The data has been collected from public
 								sources or have been added by pull requests from the community. Please\s"""),
-								a("drop me a message").withHref(CONTACT), text(" or open an "),
+								a("drop me a message").withHref(CONTACT).withRel("me"), text(" or open an "),
 								a("issue or pull").withHref(GITHUB_REPO),
 								text(" request if you want to get removed from the list."))));
 	}
