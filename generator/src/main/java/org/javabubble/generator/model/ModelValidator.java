@@ -20,7 +20,7 @@ import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-class ModelValidator {
+public class ModelValidator {
 
     public enum Validator {
         FEDIVERSE(Pattern.compile("^@([A-Za-z0-9_]+)@([a-z0-9\\-]+(\\.[a-z0-9\\-]+)+)$"),
@@ -133,7 +133,7 @@ class ModelValidator {
 	private static final Comparator<JavaPerson> ORDER = Comparator.comparing(p -> p.name().split("-|\s"),
 			(a1, a2) -> Arrays.compare(a1, a2, COLLATOR));
 
-	static void validate(JavaBubble bubble) {
+	public static void validate(JavaBubble bubble) {
 		validate(bubble.people());
 	}
 

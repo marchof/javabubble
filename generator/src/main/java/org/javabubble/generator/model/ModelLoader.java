@@ -22,9 +22,7 @@ public class ModelLoader {
 	}
 
 	public JavaBubble load() throws IOException {
-		var bubble = new JavaBubble(parseYAML(new TypeReference<List<JavaPerson>>() {
-		}));
-		ModelValidator.validate(bubble);
+		var bubble = new JavaBubble(parseYAML(new TypeReference<List<JavaPerson>>() {}));
 		return bubble;
 	}
 
