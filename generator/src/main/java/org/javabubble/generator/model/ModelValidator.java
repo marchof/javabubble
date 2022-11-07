@@ -90,12 +90,17 @@ class ModelValidator {
             String pfUrl = platformUrl.apply(matcher);
             LOG.debug("Checking '{}' (Connection Timeout: {})", pfUrl,
                 httpClient.connectTimeout().orElse(Duration.ZERO));
-            for (int retry = 0; retry <= maxRetries; retry++) {
+			int retry = 0;
+            for (;;) {
                 HttpResponse<String> result = tryToValidateOnPlatform(pfUrl);
                 if (null != result) {
                     return result;
                 }
-                LOG.warn("Retrying '{}' ({}/{})", pfUrl, retry + 1, maxRetries);
+				retry++;
+				if (retry > maxRetries) {
+					break;
+				}
+                LOG.warn("Retrying '{}' ({}/{})", pfUrl, retry, maxRetries);
             }
             throw new IllegalArgumentException("Cannot access '%s' for URL '%s'".formatted(name(), pfUrl));
         }
