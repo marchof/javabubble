@@ -117,7 +117,9 @@ class ModelValidator {
                 if (strResponse.statusCode() == 200) {
                     return strResponse;
                 }
-            } catch (IOException | URISyntaxException e) {
+            } catch (IOException e) {
+				LOG.warn("Caught an (expected) IOException, but will probably continue retrying: {}", e, e);
+			} catch (URISyntaxException e) {
                 throw new RuntimeException(e);
             } catch (InterruptedException e) {
 				LOG.error("Interrupted while checking URL '{}': {}", pfUrl, e, e);
