@@ -12,7 +12,9 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		var bubble = new ModelLoader(Path.of("../javapeople.yaml")).load();
-		ModelValidator.validate(bubble);
+		// TODO add some nice CLI handling, e.g., with picocli
+		boolean validateOnPlatforms = args.length > 0 && args[0].equals("--validate-on-platforms");
+		ModelValidator.validate(bubble, validateOnPlatforms);
 		var output = new FileOutput(Path.of("target/site"));
 		new Site(bubble, output).generate();
 	}

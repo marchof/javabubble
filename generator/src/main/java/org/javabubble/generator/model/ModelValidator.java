@@ -70,13 +70,14 @@ public class ModelValidator {
             this.responseBodyIsInvalid = responseBodyIsInvalid;
         }
 
-        public void validate(final String value) {
+        public void validate(final String value, boolean validateOnPlatform) {
             if (value != null) {
+				LOG.debug("Validating '{}' for '{}'", value, name());
                 Matcher matcher = pattern.matcher(value);
                 if (!matcher.matches()) {
                     throw new IllegalArgumentException("Field %s has unexpected value %s".formatted(name(), value));
                 }
-                if (null != platformUrl) {
+                if (validateOnPlatform && null != platformUrl) {
                         HttpResponse<String> strResponse = tryToValidateOnPlatform(matcher);
                         if (null != responseBodyIsInvalid && responseBodyIsInvalid.test(strResponse.body())) {
                             throw new IllegalArgumentException("Looks like '%s' does not know '%s'".formatted(name(),
@@ -133,20 +134,20 @@ public class ModelValidator {
 	private static final Comparator<JavaPerson> ORDER = Comparator.comparing(p -> p.name().split("-|\s"),
 			(a1, a2) -> Arrays.compare(a1, a2, COLLATOR));
 
-	public static void validate(JavaBubble bubble) {
-		validate(bubble.people());
+	public static void validate(JavaBubble bubble, boolean validateOnPlatform) {
+		validate(bubble.people(), validateOnPlatform);
 	}
 
-	private static void validate(List<JavaPerson> people) {
-		people.forEach(ModelValidator::validate);
+	private static void validate(List<JavaPerson> people, boolean validateOnPlatform) {
+		people.forEach((p) -> validate(p, validateOnPlatform));
 		people.stream().reduce(ModelValidator::checkOrder);
 	}
 
-    private static void validate(JavaPerson person) {
+    private static void validate(JavaPerson person, boolean validateOnPlatform) {
         checkNonEmpty("name", person.name());
-        Validator.TWITTER.validate(person.twitter());
-        Validator.FEDIVERSE.validate(person.fediverse());
-        Validator.GITHUB.validate(person.github());
+        Validator.TWITTER.validate(person.twitter(), validateOnPlatform);
+        Validator.FEDIVERSE.validate(person.fediverse(), validateOnPlatform);
+        Validator.GITHUB.validate(person.github(), validateOnPlatform);
     }
 
 	private static void checkNonEmpty(String field, String value) {

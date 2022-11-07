@@ -11,15 +11,17 @@ class ModelLoaderTest {
 
 	@Test
 	@Disabled ("'toot.thoughtworks.com' is on maintenance (now?)")
-	void loadProblematics() throws IOException {
+	void validateProblematics() throws IOException {
 		ModelLoader modelLoader = new ModelLoader(Path.of ("src/test/resources/javapeople-with-problems.yaml"));
 		var bubble = modelLoader.load();
+		ModelValidator.validate(bubble, true);
 		Assertions.assertNotNull(bubble);
 	}
 
 	@Test
 	void loadNonExisting() throws IOException {
 		ModelLoader modelLoader = new ModelLoader(Path.of ("src/test/resources/javapeople-nonexisting.yaml"));
-		Assertions.assertThrows(IllegalArgumentException.class, modelLoader::load);
+		var bubble = modelLoader.load();
+		Assertions.assertThrows(IllegalArgumentException.class, () -> ModelValidator.validate(bubble, true));
 	}
 }
