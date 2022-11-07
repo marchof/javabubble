@@ -1,0 +1,9 @@
+# These handles usually cause some problems :-( Timeouts etc.
+---
+- name: "Martin Fowler"
+  twitter: "@martinfowler"
+  fediverse: "@mfowler@toot.thoughtworks.com"
+- name: "Susanne Braun"
+  twitter: "@susannebraun"
+  fediverse: "@susannebraun@mstdn.social"
+  github: "BraunSusanne"
