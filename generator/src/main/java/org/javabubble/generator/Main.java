@@ -10,7 +10,7 @@ import org.javabubble.generator.site.Site;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		var bubble = new ModelLoader(Path.of("../")).load();
+		var bubble = new ModelLoader(Path.of("../javapeople.yaml")).load();
 		var output = new FileOutput(Path.of("target/site"));
 		new Site(bubble, output).generate();
 	}

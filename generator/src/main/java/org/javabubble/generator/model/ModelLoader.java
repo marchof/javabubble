@@ -13,23 +13,23 @@ import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 public class ModelLoader {
 
-	private final Path base;
+	private final Path path;
 	private final ObjectMapper mapper;
 
-	public ModelLoader(Path base) {
-		this.base = base;
+	public ModelLoader(Path path) {
+		this.path = path;
 		this.mapper = new ObjectMapper(new YAMLFactory());
 	}
 
 	public JavaBubble load() throws IOException {
-		var bubble = new JavaBubble(parseYAML("javapeople.yaml", new TypeReference<List<JavaPerson>>() {
+		var bubble = new JavaBubble(parseYAML(new TypeReference<List<JavaPerson>>() {
 		}));
 		ModelValidator.validate(bubble);
 		return bubble;
 	}
 
-	private <T> T parseYAML(String file, TypeReference<T> type) throws IOException {
-		try (var in = Files.newBufferedReader(base.resolve(file), UTF_8)) {
+	private <T> T parseYAML(TypeReference<T> type) throws IOException {
+		try (var in = Files.newBufferedReader(path, UTF_8)) {
 			return mapper.readValue(in, type);
 		}
 	}
