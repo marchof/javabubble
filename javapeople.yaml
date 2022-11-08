@@ -496,6 +496,7 @@
 - name: "Tom Cools"
   twitter: "@TCoolsIT"
   fediverse: "@TCoolsIT@mastodon.social"
+  github: "TomCools"
 - name: "Tom Schindl"
   twitter: "@tomsontom"
   fediverse: "@tomsontom@mastodon.social"
