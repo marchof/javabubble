@@ -136,7 +136,7 @@
   twitter: "@glv"
   fediverse: "@glv@mastodon.social"
   github: "glv"
- - name: "GraalVM"
+- name: "GraalVM"
   twitter: "@graalvm"
   fediverse: "@graalvm@mastodon.online"
 - name: "Gunnar Morling"
