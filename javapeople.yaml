@@ -644,7 +644,12 @@
   twitter: "@tuxtor"
   fediverse: "@tuxtor@fosstodon.org"
   github: "tuxtor"
+- name: "Will Iverson"
+  twitter: "@wiverson"
+  fediverse: "@wiverson@mas.to"
+  github: "wiverson"
 - name: "Yorgos Saslis"
   twitter: "@gsaslis"
   fediverse: "@yorgos_@mastodon.social"
   github: "gsaslis"
+  
