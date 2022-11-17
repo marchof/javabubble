@@ -307,8 +307,9 @@
   twitter: "@jddarcy"
   fediverse: "@jddarcy@mastodon.social"
 - name: "Joseph Ottinger"
-  twitter: '@josephbottinger'
-  fediverse: '@joseph@hwfo.online'
+  twitter: "@josephbottinger"
+  fediverse: "@joseph@hwfo.online"
+  github: "jottinger"
 - name: "Josh Long"
   twitter: "@starbuxman"
   fediverse: "@starbuxman@mastodon.online"
