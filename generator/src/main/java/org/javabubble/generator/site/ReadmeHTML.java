@@ -128,7 +128,7 @@ class ReadmeHTML extends TextArtifact {
 				td(handleWithLink(person, JavaPerson::fediverse, JavaPerson::fediverseLink)), //
 				td(handleWithLink(person, JavaPerson::twitter, JavaPerson::twitterLink)), //
 				td(handleWithLink(person, JavaPerson::github, JavaPerson::githubLink)), //
-				td(handleWithLink(person, JavaPerson::github, JavaPerson::redditLink)));
+				td(handleWithLink(person, JavaPerson::reddit, JavaPerson::redditLink)));
 	}
 
 	private DomContent handleWithLink(JavaPerson person, Function<JavaPerson, String> handlesrc,
