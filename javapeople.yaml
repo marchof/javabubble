@@ -502,7 +502,7 @@
   github: "phillipross"
 - name: "Preslav Rachev"
   twitter: "@preslavrachev"
-  fediverse: "https://mastodon.social/@preslavrachev"
+  fediverse: "@preslavrachev@mastodon.social"
   github: "preslavrachev"
 - name: "Rabea Gransberger"
   twitter: "@rgransberger"
