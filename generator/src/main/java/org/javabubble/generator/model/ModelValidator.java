@@ -12,6 +12,7 @@ class ModelValidator {
 	private static final Pattern TWITTER_PATTERN = Pattern.compile("@[A-Za-z0-9_]+");
 	private static final Pattern FEDIVERSE_PATTERN = Pattern.compile("@[A-Za-z0-9_]+@[a-z0-9\\-]+(\\.[a-z0-9\\-]+)+");
 	private static final Pattern GITHUB_PATTERN = Pattern.compile("[A-Za-z0-9_\\-]+");
+	private static final Pattern REDDIT_PATTERN = Pattern.compile("[A-Za-z0-9_\\-]+");
 
 	private static final Collator COLLATOR = Collator.getInstance(Locale.ENGLISH);
 	private static final Comparator<JavaPerson> ORDER = Comparator.comparing(p -> p.name().split("-|\s"),
@@ -31,6 +32,7 @@ class ModelValidator {
 		checkPattern("twitter", TWITTER_PATTERN, person.twitter());
 		checkPattern("fediverse", FEDIVERSE_PATTERN, person.fediverse());
 		checkPattern("github", GITHUB_PATTERN, person.github());
+		checkPattern("reddit", REDDIT_PATTERN, person.reddit());
 	}
 
 	private static void checkNonEmpty(String field, String value) {
