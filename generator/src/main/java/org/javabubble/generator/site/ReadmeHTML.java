@@ -115,7 +115,8 @@ class ReadmeHTML extends TextArtifact {
 								th("Name"), //
 								th("Fediverse"), //
 								th("Twitter"), //
-								th("GitHub") //
+								th("GitHub"), //
+								th("reddit") //
 						)), //
 						tbody(bubble.people().stream().map(this::person).toArray(DomContent[]::new) //
 						)));
@@ -126,7 +127,8 @@ class ReadmeHTML extends TextArtifact {
 				td(person.name()), //
 				td(handleWithLink(person, JavaPerson::fediverse, JavaPerson::fediverseLink)), //
 				td(handleWithLink(person, JavaPerson::twitter, JavaPerson::twitterLink)), //
-				td(handleWithLink(person, JavaPerson::github, JavaPerson::githubLink)));
+				td(handleWithLink(person, JavaPerson::github, JavaPerson::githubLink)), //
+				td(handleWithLink(person, JavaPerson::reddit, JavaPerson::redditLink)));
 	}
 
 	private DomContent handleWithLink(JavaPerson person, Function<JavaPerson, String> handlesrc,
