@@ -14,7 +14,9 @@ public record JavaPerson(
 
 		@JsonInclude(Include.NON_NULL) String fediverse,
 
-		@JsonInclude(Include.NON_NULL) String github
+		@JsonInclude(Include.NON_NULL) String github,
+
+		@JsonInclude(Include.NON_NULL) String reddit
 
 ) {
 
@@ -33,6 +35,11 @@ public record JavaPerson(
 	public Optional<String> githubLink() {
 		return Optional.ofNullable(github()) //
 				.map("https://github.com/%s/"::formatted);
+	}
+
+	public Optional<String> redditLink() {
+		return Optional.ofNullable(reddit()) //
+				.map("https://www.reddit.com/user/%s"::formatted);
 	}
 
 }
