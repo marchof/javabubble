@@ -12,8 +12,8 @@ public class PeopleYaml extends TextArtifact {
 
 	static final String LOCATION = "api/bubble/people.yaml";
 
-	PeopleYaml(JavaBubble blubble) {
-		super(blubble, LOCATION);
+	PeopleYaml(JavaBubble bubble) {
+		super(bubble, LOCATION);
 	}
 
 	@Override
