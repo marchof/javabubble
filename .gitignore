@@ -1,0 +1,9 @@
+# IDE Config for VS Code
+.vscode/
+
+# JEnv local Java version setting
+generator/.java-version
+
+# Binary artifacts from the build/run
+generator/target/
+target/
