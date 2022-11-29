@@ -23,7 +23,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         tag: latest-exports
         files: generator/target/site/api/bubble/following.csv
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
 
     # Publish to AWS Bucket
     - uses: aws-actions/configure-aws-credentials@v1
@@ -31,8 +31,8 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: eu-central-1
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
     - run: |
         aws s3 sync generator/target/site s3://javabubble.org
         aws cloudfront create-invalidation --distribution-id EH2BVKQRF4MDG --paths "/*"
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
