@@ -37,7 +37,7 @@ class ReadmeHTML extends TextArtifact {
 
 	private static final String GITHUB_REPO = "https://github.com/marchof/javabubble/";
 
-	private static final String GITHUB_REPO_HISTORY = GITHUB_REPO + "commits/master";
+	private static final String GITHUB_REPO_HISTORY = GITHUB_REPO + "commits/main";
 
 	private static final String CONTACT = "https://mastodon.social/@marcandsweep";
 
