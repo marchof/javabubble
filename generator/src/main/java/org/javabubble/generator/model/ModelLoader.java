@@ -22,10 +22,8 @@ public class ModelLoader {
 	}
 
 	public JavaBubble load() throws IOException {
-		var bubble = new JavaBubble(parseYAML("javapeople.yaml", new TypeReference<List<JavaPerson>>() {
+		return new JavaBubble(parseYAML("javapeople.yaml", new TypeReference<List<JavaPerson>>() {
 		}));
-		ModelValidator.validate(bubble);
-		return bubble;
 	}
 
 	private <T> T parseYAML(String file, TypeReference<T> type) throws IOException {

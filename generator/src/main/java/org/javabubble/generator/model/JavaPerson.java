@@ -1,7 +1,12 @@
 package org.javabubble.generator.model;
 
-import java.util.Optional;
+import static java.util.function.Predicate.not;
 
+import java.util.List;
+import java.util.Objects;
+import java.util.stream.Stream;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -10,36 +15,30 @@ public record JavaPerson(
 
 		@JsonProperty(required = true) String name,
 
-		@JsonInclude(Include.NON_NULL) String twitter,
+		@JsonInclude(Include.NON_NULL) TwitterHandle twitter,
 
-		@JsonInclude(Include.NON_NULL) String fediverse,
+		@JsonInclude(Include.NON_NULL) FediverseHandle fediverse,
 
-		@JsonInclude(Include.NON_NULL) String github,
+		@JsonInclude(Include.NON_NULL) GithubHandle github,
 
-		@JsonInclude(Include.NON_NULL) String reddit
+		@JsonInclude(Include.NON_NULL) RedditHandle reddit
 
 ) {
 
-	public Optional<String> twitterLink() {
-		return Optional.ofNullable(twitter()) //
-				.map(handle -> handle.substring(1)) //
-				.map("https://twitter.com/%s"::formatted);
+	public JavaPerson {
+		if (name == null || name.isBlank()) {
+			throw new IllegalArgumentException("Field name must not be empty");
+		}
 	}
 
-	public Optional<String> fediverseLink() {
-		return Optional.ofNullable(fediverse()) //
-				.map(handle -> handle.split("@")) //
-				.map("https://%3$s/@%2$s"::formatted);
-	}
-
-	public Optional<String> githubLink() {
-		return Optional.ofNullable(github()) //
-				.map("https://github.com/%s/"::formatted);
-	}
-
-	public Optional<String> redditLink() {
-		return Optional.ofNullable(reddit()) //
-				.map("https://www.reddit.com/user/%s"::formatted);
+	@JsonIgnore
+	public List<String> getUniqueHandles() {
+		return Stream.of(twitter, fediverse, github, reddit) //
+				.filter(not(Objects::isNull)) //
+				.map(Handle::getLocalHandle) //
+				.distinct() //
+				.sorted() //
+				.toList();
 	}
 
 }
