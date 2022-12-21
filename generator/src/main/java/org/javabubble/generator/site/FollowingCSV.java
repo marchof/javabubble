@@ -5,6 +5,7 @@ import java.io.PrintWriter;
 import java.io.Writer;
 import java.util.Objects;
 
+import org.javabubble.generator.model.Handle;
 import org.javabubble.generator.model.JavaBubble;
 import org.javabubble.generator.model.JavaPerson;
 
@@ -23,6 +24,7 @@ class FollowingCSV extends TextArtifact {
 		bubble.people().stream() //
 				.map(JavaPerson::fediverse) //
 				.filter(Objects::nonNull) //
+				.map(Handle::getHandle) //
 				.map("%s,true,false,"::formatted) //
 				.forEach(printer::println);
 		printer.flush();

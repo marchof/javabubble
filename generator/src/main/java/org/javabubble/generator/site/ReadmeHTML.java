@@ -23,9 +23,8 @@ import static j2html.TagCreator.ul;
 
 import java.io.IOException;
 import java.io.Writer;
-import java.util.Optional;
-import java.util.function.Function;
 
+import org.javabubble.generator.model.Handle;
 import org.javabubble.generator.model.JavaBubble;
 import org.javabubble.generator.model.JavaPerson;
 
@@ -125,17 +124,18 @@ class ReadmeHTML extends TextArtifact {
 	private DomContent person(JavaPerson person) {
 		return tr( //
 				td(person.name()), //
-				td(handleWithLink(person, JavaPerson::fediverse, JavaPerson::fediverseLink)), //
-				td(handleWithLink(person, JavaPerson::twitter, JavaPerson::twitterLink)), //
-				td(handleWithLink(person, JavaPerson::github, JavaPerson::githubLink)), //
-				td(handleWithLink(person, JavaPerson::reddit, JavaPerson::redditLink)));
+				td(handleWithLink(person, person.fediverse())), //
+				td(handleWithLink(person, person.twitter())), //
+				td(handleWithLink(person, person.github())), //
+				td(handleWithLink(person, person.reddit())));
 	}
 
-	private DomContent handleWithLink(JavaPerson person, Function<JavaPerson, String> handlesrc,
-			Function<JavaPerson, Optional<String>> linksrc) {
-		return linksrc.apply(person) //
-				.map(link -> (DomContent) a(handlesrc.apply(person)).withHref(link)) //
-				.orElse(text("-"));
+	private DomContent handleWithLink(JavaPerson person, Handle handle) {
+		if (handle != null) {
+			return a(handle.getHandle()).withHref(handle.getWebLink());
+		} else {
+			return text("-");
+		}
 	}
 
 }
