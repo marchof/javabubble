@@ -53,6 +53,7 @@ class ReadmeHTML extends TextArtifact {
 						Style.gitHubStyle(), //
 						title("Java Bubble")), //
 				body( //
+						SocialIcons.symbols(), //
 						intro(), //
 						remarks(), //
 						export(), //
@@ -112,29 +113,26 @@ class ReadmeHTML extends TextArtifact {
 				table( //
 						thead(tr( //
 								th("Name"), //
-								th("Fediverse"), //
-								th("Twitter"), //
-								th("GitHub"), //
-								th("reddit") //
-						)), //
-						tbody(bubble.people().stream().map(this::person).toArray(DomContent[]::new) //
-						)));
+								th("Handles"), //
+								th("Platforms").withColspan("4"))), //
+						tbody(bubble.people().stream().map(this::person).toArray(DomContent[]::new))));
 	}
 
 	private DomContent person(JavaPerson person) {
 		return tr( //
 				td(person.name()), //
-				td(handleWithLink(person, person.fediverse())), //
-				td(handleWithLink(person, person.twitter())), //
-				td(handleWithLink(person, person.github())), //
-				td(handleWithLink(person, person.reddit())));
+				td(String.join(", ", person.getUniqueHandles())), //
+				handleWithLink(person, person.fediverse(), SocialIcons.mastodon, "Mastodon"), //
+				handleWithLink(person, person.twitter(), SocialIcons.twitter, "Twitter"), //
+				handleWithLink(person, person.github(), SocialIcons.github, "GitHub"), //
+				handleWithLink(person, person.reddit(), SocialIcons.reddit, "Reddit"));
 	}
 
-	private DomContent handleWithLink(JavaPerson person, Handle handle) {
+	private DomContent handleWithLink(JavaPerson person, Handle handle, SocialIcons icon, String title) {
 		if (handle != null) {
-			return a(handle.getHandle()).withHref(handle.getWebLink());
+			return td(a(icon.svg()).withTitle(title + ": " + handle.getHandle()).withHref(handle.getWebLink()));
 		} else {
-			return text("-");
+			return td();
 		}
 	}
 

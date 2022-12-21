@@ -31,6 +31,16 @@ class Style {
 					padding: 15px;
 				}
 			}
+			svg.socialicon {
+			  width: 18px;
+			  height: 18px;
+			  min-width: 18px;
+			  min-height: 18px;
+			  fill: #17E;
+			}
+			svg.socialicon:hover {
+			  fill: #138;
+			}
 			""");
 
 	private static String loadGitHubCSS() throws IOException {
