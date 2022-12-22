@@ -36,7 +36,7 @@ class ReadmeHTML extends TextArtifact {
 
 	private static final String GITHUB_REPO = "https://github.com/marchof/javabubble/";
 
-	private static final String GITHUB_REPO_HISTORY = GITHUB_REPO + "commits/main";
+	private static final String GITHUB_REPO_CONTRIBUTORS = GITHUB_REPO + "graphs/contributors";
 
 	private static final String CONTACT = "https://mastodon.social/@marcandsweep";
 
@@ -69,7 +69,7 @@ class ReadmeHTML extends TextArtifact {
 						decades. To continue having a welcoming and safe place to learn about Java and
 						software technology I created this backup list for a potential alternative
 						social platform with the\s"""), //
-						a("help of the Java community").withHref(GITHUB_REPO_HISTORY), //
+						a("help of the Java community").withHref(GITHUB_REPO_CONTRIBUTORS), //
 						text(".")), //
 				p(text("Please feel free to "), a("create a pull request").withHref(GITHUB_REPO), //
 						text(" create PRs to add yourself or Java people you think should be on this list.")));
