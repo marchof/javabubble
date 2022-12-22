@@ -2,9 +2,9 @@ package org.javabubble.generator.model;
 
 import java.util.regex.Pattern;
 
-public class TwitterHandle extends Handle {
+public final class TwitterHandle extends Handle {
 
-	private static final Pattern HANDLE_PATTERN = Pattern.compile("@[A-Za-z0-9_]+");
+	private static final Pattern HANDLE_PATTERN = Pattern.compile("[A-Za-z0-9_]+");
 
 	public TwitterHandle(String handle) {
 		super(handle, HANDLE_PATTERN);
@@ -12,7 +12,7 @@ public class TwitterHandle extends Handle {
 
 	@Override
 	public String getLocalHandle() {
-		return getHandle().substring(1);
+		return getHandle();
 	}
 
 	@Override

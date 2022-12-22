@@ -2,9 +2,9 @@ package org.javabubble.generator.model;
 
 import java.util.regex.Pattern;
 
-public class FediverseHandle extends Handle {
+public final class FediverseHandle extends Handle {
 
-	private static final Pattern HANDLE_PATTERN = Pattern.compile("@[A-Za-z0-9_]+@[a-z0-9\\-]+(\\.[a-z0-9\\-]+)+");
+	private static final Pattern HANDLE_PATTERN = Pattern.compile("[A-Za-z0-9_]+@[a-z0-9\\-]+(\\.[a-z0-9\\-]+)+");
 
 	public FediverseHandle(String handle) {
 		super(handle, HANDLE_PATTERN);
@@ -12,12 +12,16 @@ public class FediverseHandle extends Handle {
 
 	@Override
 	public String getLocalHandle() {
+		return getHandle().split("@")[0];
+	}
+
+	public String getServer() {
 		return getHandle().split("@")[1];
 	}
 
 	@Override
 	public String getWebLink() {
-		return "https://%3$s/@%2$s".formatted((Object[]) getHandle().split("@"));
+		return "https://%s/@%s".formatted(getServer(), getLocalHandle());
 	}
 
 }

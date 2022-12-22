@@ -25,7 +25,7 @@ class FollowingCSV extends TextArtifact {
 				.map(JavaPerson::fediverse) //
 				.filter(Objects::nonNull) //
 				.map(Handle::getHandle) //
-				.map("%s,true,false,"::formatted) //
+				.map("@%s,true,false,"::formatted) //
 				.forEach(printer::println);
 		printer.flush();
 	}
