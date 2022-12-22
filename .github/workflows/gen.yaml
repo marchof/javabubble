@@ -17,14 +17,6 @@ jobs:
         mvn --no-transfer-progress package exec:java -Dexec.mainClass=org.javabubble.generator.Main
       working-directory: generator
 
-    # Publish also to old location to not break links:
-    - uses: pyTooling/Actions/releaser@v0.4.3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        tag: latest-exports
-        files: generator/target/site/api/bubble/following.csv
-      if: github.ref == 'refs/heads/main'
-
     # Publish to AWS Bucket
     - uses: aws-actions/configure-aws-credentials@v1
       with:
