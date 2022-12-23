@@ -2,7 +2,7 @@ package org.javabubble.generator.model;
 
 import java.util.regex.Pattern;
 
-public class GithubHandle extends Handle {
+public final class GithubHandle extends Handle {
 
 	private static final Pattern HANDLE_PATTERN = Pattern.compile("[A-Za-z0-9_\\-]+");
 

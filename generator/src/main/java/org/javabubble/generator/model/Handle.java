@@ -4,12 +4,15 @@ import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public abstract class Handle {
+public abstract sealed class Handle permits FediverseHandle,GithubHandle,RedditHandle,TwitterHandle {
 
 	@JsonValue
 	private final String handle;
 
 	protected Handle(String handle, Pattern pattern) {
+		if (handle.startsWith("@")) {
+			handle = handle.substring(1);
+		}
 		if (!pattern.matcher(handle).matches()) {
 			throw new IllegalArgumentException(
 					"Unexpected value %s for %s".formatted(handle, getClass().getSimpleName()));
