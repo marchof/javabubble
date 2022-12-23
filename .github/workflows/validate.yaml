@@ -1,0 +1,26 @@
+name: Validate Handles
+
+on:
+  push:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-java@v3
+      with:
+        distribution: temurin
+        java-version: 17
+    - run: |
+        mvn --no-transfer-progress package exec:java -Dexec.mainClass=org.javabubble.generator.HandleValidator
+      env:
+        API_AUTH_GITHUB: ${{ secrets.API_AUTH_GITHUB }}
+        API_AUTH_TWITTER: ${{ secrets.API_AUTH_TWITTER }}
+      working-directory: generator
+    - uses: peter-evans/create-pull-request@v4
+      with:
+        commit-message: "Cleanup handles"
+        branch: "cleanup-handles"
+        title: "Cleanup Handles"
+

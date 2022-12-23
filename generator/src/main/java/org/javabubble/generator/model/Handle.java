@@ -10,9 +10,6 @@ public abstract sealed class Handle permits FediverseHandle,GithubHandle,RedditH
 	private final String handle;
 
 	protected Handle(String handle, Pattern pattern) {
-		if (handle.startsWith("@")) {
-			handle = handle.substring(1);
-		}
 		if (!pattern.matcher(handle).matches()) {
 			throw new IllegalArgumentException(
 					"Unexpected value %s for %s".formatted(handle, getClass().getSimpleName()));
