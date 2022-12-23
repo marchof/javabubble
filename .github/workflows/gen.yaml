@@ -14,7 +14,7 @@ jobs:
         distribution: temurin
         java-version: 17
     - run: |
-        mvn --no-transfer-progress package exec:java -Dexec.mainClass=org.javabubble.generator.Main
+        mvn --no-transfer-progress package exec:java -Dexec.mainClass=org.javabubble.generator.SiteGenerator
       working-directory: generator
 
     # Publish to AWS Bucket

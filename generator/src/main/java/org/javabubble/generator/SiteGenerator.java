@@ -7,7 +7,7 @@ import org.javabubble.generator.model.ModelLoader;
 import org.javabubble.generator.site.FileOutput;
 import org.javabubble.generator.site.Site;
 
-public class Main {
+public class SiteGenerator {
 
 	public static void main(String[] args) throws IOException {
 		var bubble = new ModelLoader(Path.of("../")).load();
