@@ -38,7 +38,7 @@ class ReadmeHTML extends TextArtifact {
 
 	private static final String GITHUB_REPO_CONTRIBUTORS = GITHUB_REPO + "graphs/contributors";
 
-	private static final String CONTACT = "https://mastodon.social/@marcandsweep";
+	private static final String CONTACT = "https://javabubble.social/@marcandsweep";
 
 	ReadmeHTML(JavaBubble bubble) {
 		super(bubble, LOCATION);
