@@ -114,7 +114,7 @@ class ReadmeHTML extends TextArtifact {
 						thead(tr( //
 								th("Name"), //
 								th("Handles"), //
-								th("Platforms").withColspan("4"))), //
+								th("Platform Links").withColspan("5"))), //
 						tbody(bubble.people().stream().map(this::person).toArray(DomContent[]::new))));
 	}
 
@@ -125,7 +125,8 @@ class ReadmeHTML extends TextArtifact {
 				handleWithLink(person, person.fediverse(), SocialIcons.mastodon, "Mastodon"), //
 				handleWithLink(person, person.twitter(), SocialIcons.twitter, "Twitter"), //
 				handleWithLink(person, person.github(), SocialIcons.github, "GitHub"), //
-				handleWithLink(person, person.reddit(), SocialIcons.reddit, "Reddit"));
+				handleWithLink(person, person.reddit(), SocialIcons.reddit, "Reddit"), //
+				handleWithLink(person, person.linkedin(), SocialIcons.linkedin, "LinkedIn"));
 	}
 
 	private DomContent handleWithLink(JavaPerson person, Handle handle, SocialIcons icon, String title) {
