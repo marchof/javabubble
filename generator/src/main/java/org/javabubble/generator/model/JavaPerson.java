@@ -21,7 +21,9 @@ public record JavaPerson(
 
 		@JsonInclude(Include.NON_NULL) GithubHandle github,
 
-		@JsonInclude(Include.NON_NULL) RedditHandle reddit
+		@JsonInclude(Include.NON_NULL) RedditHandle reddit,
+
+		@JsonInclude(Include.NON_NULL) LinkedInHandle linkedin
 
 ) {
 
