@@ -7,24 +7,23 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse.BodyHandlers;
-
-import org.javabubble.generator.model.Handle;
+import java.util.Optional;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-abstract class RestAPIValidator<H extends Handle> implements HandleValidator<H> {
+final class RestClient {
 
-	private final HttpClient client;
+	protected final HttpClient client;
 
 	private final String authorization;
 
-	RestAPIValidator() {
+	RestClient() {
 		this(null);
 	}
 
-	RestAPIValidator(String authorizationEnvVariable) {
+	RestClient(String authorizationEnvVariable) {
 		client = HttpClient.newBuilder().followRedirects(NORMAL).build();
 		if (authorizationEnvVariable != null) {
 			authorization = System.getenv(authorizationEnvVariable);
@@ -33,29 +32,28 @@ abstract class RestAPIValidator<H extends Handle> implements HandleValidator<H> 
 		}
 	}
 
-	@Override
-	public H validate(H handle) {
+	protected Response get(String uri, Object... params) {
+		var builder = HttpRequest.newBuilder(URI.create(uri.formatted(params)));
+		if (authorization != null) {
+			builder.header("Authorization", authorization);
+		}
 		try {
-			var uri = URI.create(requestURL(handle));
-			var builder = HttpRequest.newBuilder(uri);
-			if (authorization != null) {
-				builder.header("Authorization", authorization);
-			}
 			var response = client.send(builder.build(), BodyHandlers.ofString());
-			if (response.statusCode() != 200) {
-				return null;
+			JsonNode content;
+			if (response.statusCode() == 200) {
+				var mapper = new ObjectMapper(new JsonFactory());
+				content = mapper.readTree(response.body());
+			} else {
+				content = null;
 			}
-			var mapper = new ObjectMapper(new JsonFactory());
-			var root = mapper.readTree(response.body());
-			return readResponse(root);
+			return new Response(Optional.ofNullable(content), response.statusCode());
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
-			return null;
+			return new Response(Optional.empty(), 500);
 		}
 	}
 
-	abstract String requestURL(H handle);
-
-	abstract H readResponse(JsonNode response);
+	record Response(Optional<JsonNode> content, int status) {
+	}
 
 }

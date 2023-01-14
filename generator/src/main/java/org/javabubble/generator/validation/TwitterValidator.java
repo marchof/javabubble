@@ -4,24 +4,22 @@ import org.javabubble.generator.model.TwitterHandle;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
-class TwitterValidator extends RestAPIValidator<TwitterHandle> {
+class TwitterValidator implements HandleValidator<TwitterHandle> {
+
+	private final RestClient client;
 
 	public TwitterValidator() {
-		super("API_AUTH_TWITTER");
+		client = new RestClient("API_AUTH_TWITTER");
 	}
 
 	@Override
-	String requestURL(TwitterHandle handle) {
-		return "https://api.twitter.com/2/users/by?usernames=%s".formatted(handle.getLocalHandle());
-	}
-
-	@Override
-	TwitterHandle readResponse(JsonNode response) {
-		var data = response.get("data");
-		if (data == null) {
-			return null;
-		}
-		return new TwitterHandle(data.get(0).get("username").asText());
+	public TwitterHandle validate(TwitterHandle handle) {
+		return client.get("https://api.twitter.com/2/users/by?usernames=%s", handle.getLocalHandle()).content() //
+				.map(n -> n.get("data")) //
+				.map(n -> n.get(0)) //
+				.map(n -> n.get("username")) //
+				.map(JsonNode::asText) //
+				.map(TwitterHandle::new).orElse(null);
 	}
 
 }

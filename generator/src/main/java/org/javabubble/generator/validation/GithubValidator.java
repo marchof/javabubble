@@ -4,20 +4,20 @@ import org.javabubble.generator.model.GithubHandle;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
-class GithubValidator extends RestAPIValidator<GithubHandle> {
+class GithubValidator implements HandleValidator<GithubHandle> {
+
+	private final RestClient client;
 
 	public GithubValidator() {
-		super("API_AUTH_GITHUB");
+		client = new RestClient("API_AUTH_GITHUB");
 	}
 
 	@Override
-	String requestURL(GithubHandle handle) {
-		return "https://api.github.com/users/%s".formatted(handle.getLocalHandle());
-	}
-
-	@Override
-	GithubHandle readResponse(JsonNode response) {
-		return new GithubHandle(response.get("login").asText());
+	public GithubHandle validate(GithubHandle handle) {
+		return client.get("https://api.github.com/users/%s", handle.getLocalHandle()).content() //
+				.map(n -> n.get("login")) //
+				.map(JsonNode::asText) //
+				.map(GithubHandle::new).orElse(null);
 	}
 
 }
