@@ -4,16 +4,21 @@ import org.javabubble.generator.model.RedditHandle;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
-class RedditValidator extends RestAPIValidator<RedditHandle> {
+class RedditValidator implements HandleValidator<RedditHandle> {
 
-	@Override
-	String requestURL(RedditHandle handle) {
-		return "https://api.reddit.com/user/%s/about".formatted(handle.getLocalHandle());
+	private final RestClient client;
+
+	public RedditValidator() {
+		client = new RestClient();
 	}
 
 	@Override
-	RedditHandle readResponse(JsonNode response) {
-		return new RedditHandle(response.get("data").get("name").asText());
+	public RedditHandle validate(RedditHandle handle) {
+		return client.get("https://api.reddit.com/user/%s/about", handle.getLocalHandle()).content() //
+				.map(n -> n.get("data")) //
+				.map(n -> n.get("name")) //
+				.map(JsonNode::asText) //
+				.map(RedditHandle::new).orElse(null);
 	}
 
 }
