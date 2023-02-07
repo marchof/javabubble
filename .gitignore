@@ -7,3 +7,7 @@ generator/.java-version
 # Binary artifacts from the build/run
 generator/target/
 target/
+
+# IDE Config for IntelliJ IDEA
+/.idea/
+/javabubble.iml
