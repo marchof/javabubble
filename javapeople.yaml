@@ -246,6 +246,8 @@
 - name: "GraalVM"
   twitter: "graalvm"
   fediverse: "graalvm@mastodon.online"
+- name: "Grace Jansen"
+  twitter: "gracejansen27"
 - name: "Greg Chabala"
   twitter: "chabala"
   fediverse: "chabala@fosstodon.org"
