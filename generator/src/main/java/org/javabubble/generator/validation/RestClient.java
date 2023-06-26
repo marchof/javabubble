@@ -44,6 +44,8 @@ final class RestClient {
 				var mapper = new ObjectMapper(new JsonFactory());
 				content = mapper.readTree(response.body());
 			} else {
+				System.out.println("Unexpected server response: " + response.statusCode());
+				System.out.println(response.body());
 				content = null;
 			}
 			return new Response(Optional.ofNullable(content), response.statusCode());

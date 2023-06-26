@@ -104,7 +104,11 @@ class ReadmeHTML extends TextArtifact {
 						li(a("people.yaml").withHref(PeopleYaml.LOCATION), text(" - raw data")), //
 						li(a("people.json").withHref(PeopleJson.LOCATION), text(" - raw data")), //
 						li(a("following.csv").withHref(FollowingCSV.LOCATION), text(" - for Mastodon import")) //
-				));
+				), //
+				p("""
+						Handles are validated in a nightly build except for Twitter due to their
+						API restrictions.
+						"""));
 	}
 
 	private DomContent people() {
