@@ -1,5 +1,6 @@
 package org.javabubble.generator.validation;
 
+import org.javabubble.generator.model.BlueskyHandle;
 import org.javabubble.generator.model.FediverseHandle;
 import org.javabubble.generator.model.GithubHandle;
 import org.javabubble.generator.model.JavaPerson;
@@ -18,7 +19,8 @@ public class PersonValidator {
 				fediverseValidator.validate(person.fediverse()), //
 				githubValidator.validate(person.github()), //
 				redditValidator.validate(person.reddit()), //
-				person.linkedin());
+				person.linkedin(), //
+				person.bluesky());
 	}
 
 }
