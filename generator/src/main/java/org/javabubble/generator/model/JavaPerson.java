@@ -37,7 +37,7 @@ public record JavaPerson(
 
 	@JsonIgnore
 	public List<String> getUniqueHandles() {
-		return Stream.of(twitter, fediverse, github, reddit) //
+		return Stream.of(twitter, fediverse, github, reddit, bluesky) //
 				.filter(not(Objects::isNull)) //
 				.map(Handle::getLocalHandle) //
 				.distinct() //
