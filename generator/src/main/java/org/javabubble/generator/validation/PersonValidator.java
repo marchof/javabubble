@@ -1,6 +1,5 @@
 package org.javabubble.generator.validation;
 
-import org.javabubble.generator.model.BlueskyHandle;
 import org.javabubble.generator.model.FediverseHandle;
 import org.javabubble.generator.model.GithubHandle;
 import org.javabubble.generator.model.JavaPerson;
