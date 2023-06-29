@@ -18,7 +18,8 @@ public class PersonValidator {
 				fediverseValidator.validate(person.fediverse()), //
 				githubValidator.validate(person.github()), //
 				redditValidator.validate(person.reddit()), //
-				person.linkedin());
+				person.linkedin(), //
+				person.bluesky());
 	}
 
 }
