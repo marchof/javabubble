@@ -941,6 +941,7 @@
   fediverse: "scordio@mastodon.social"
   github: "scordio"
   linkedin: "scordio"
+  bluesky: "scordio.bsky.social"
 - name: "Stephan Janssen"
   twitter: "Stephan007"
   fediverse: "stephan007@techhub.social"
