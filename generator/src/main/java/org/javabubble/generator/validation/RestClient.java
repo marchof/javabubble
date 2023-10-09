@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 final class RestClient {
 
-	protected final HttpClient client;
+	private final HttpClient client;
 
 	private final String authorization;
 
@@ -32,7 +32,7 @@ final class RestClient {
 		}
 	}
 
-	protected Response get(String uri, Object... params) {
+	Response get(String uri, Object... params) {
 		var builder = HttpRequest.newBuilder(URI.create(uri.formatted(params)));
 		if (authorization != null) {
 			builder.header("Authorization", authorization);
