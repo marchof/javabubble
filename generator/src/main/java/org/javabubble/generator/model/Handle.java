@@ -4,8 +4,8 @@ import java.util.regex.Pattern;
 
 import com.fasterxml.jackson.annotation.JsonValue;
 
-public abstract sealed class Handle permits FediverseHandle,GithubHandle,LinkedInHandle,RedditHandle,TwitterHandle,
-		BlueskyHandle {
+public abstract sealed class Handle permits FediverseHandle,GitHubHandle,LinkedInHandle,RedditHandle,TwitterHandle,
+		BlueskyHandle, YouTubeHandle {
 
 	@JsonValue
 	private final String handle;

@@ -4,6 +4,6 @@ import org.javabubble.generator.model.Handle;
 
 interface HandleValidator<H extends Handle> {
 
-	public abstract H validate(H handle);
+	H validate(H handle);
 
 }

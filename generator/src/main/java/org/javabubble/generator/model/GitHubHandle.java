@@ -2,11 +2,11 @@ package org.javabubble.generator.model;
 
 import java.util.regex.Pattern;
 
-public final class GithubHandle extends Handle {
+public final class GitHubHandle extends Handle {
 
 	private static final Pattern HANDLE_PATTERN = Pattern.compile("[A-Za-z0-9_\\-]+");
 
-	public GithubHandle(String handle) {
+	public GitHubHandle(String handle) {
 		super(handle, HANDLE_PATTERN);
 	}
 
