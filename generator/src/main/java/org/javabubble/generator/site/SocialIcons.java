@@ -10,7 +10,7 @@ import j2html.tags.DomContent;
 
 enum SocialIcons {
 
-	mastodon, twitter, github, reddit, linkedin, bluesky, youtube;
+	mastodon, twitter, github, reddit, linkedin, bluesky, youtube, twitch;
 
 	DomContent svg() {
 		return rawHtml("<svg class=\"socialicon\"><use xlink:href=\"#%s\"/></svg>".formatted(name()));

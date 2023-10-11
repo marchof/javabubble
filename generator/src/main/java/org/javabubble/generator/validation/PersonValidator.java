@@ -20,7 +20,8 @@ public class PersonValidator {
 				redditValidator.validate(person.reddit()), //
 				person.linkedin(), //
 				person.bluesky(), //
-				person.youtube());
+				person.youtube(), //
+				person.twitch());
 	}
 
 }

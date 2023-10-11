@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public abstract sealed class Handle permits FediverseHandle,GitHubHandle,LinkedInHandle,RedditHandle,TwitterHandle,
-		BlueskyHandle, YouTubeHandle {
+		BlueskyHandle, YouTubeHandle, TwitchHandle {
 
 	@JsonValue
 	private final String handle;
