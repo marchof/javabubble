@@ -27,7 +27,9 @@ public record JavaPerson(
 
 		@JsonInclude(Include.NON_NULL) BlueskyHandle bluesky,
 
-		@JsonInclude(Include.NON_NULL) YouTubeHandle youtube
+		@JsonInclude(Include.NON_NULL) YouTubeHandle youtube,
+
+		@JsonInclude(Include.NON_NULL) TwitchHandle twitch
 
 ) {
 
@@ -39,7 +41,7 @@ public record JavaPerson(
 
 	@JsonIgnore
 	public List<String> getUniqueHandles() {
-		return Stream.of(twitter, fediverse, github, reddit, bluesky, youtube) //
+		return Stream.of(twitter, fediverse, github, reddit, bluesky, youtube, twitch) //
 				.filter(not(Objects::isNull)) //
 				.map(Handle::getLocalHandle) //
 				.distinct() //

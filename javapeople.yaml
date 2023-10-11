@@ -735,6 +735,7 @@
   github: "nipafx"
   bluesky: "nipafx.bsky.social"
   youtube: "nipafx"
+  twitch: "nipafx"
 - name: "Nicolas Fränkel"
   twitter: "nicolas_frankel"
   fediverse: "frankel@mastodon.top"
