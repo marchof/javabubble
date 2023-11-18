@@ -417,6 +417,8 @@
 - name: "Java User Group Switzerland"
   twitter: "jugch"
   fediverse: "jugch@ijug.social"
+  github: "jugch"
+  youtube: "jugch"
 - name: "JCON"
   twitter: "jcon_conference"
   fediverse: "jcon@mastodon.social"
