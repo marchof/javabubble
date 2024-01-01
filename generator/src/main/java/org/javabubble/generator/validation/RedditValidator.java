@@ -4,6 +4,7 @@ import org.javabubble.generator.model.RedditHandle;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
+@SuppressWarnings("unused")
 class RedditValidator implements HandleValidator<RedditHandle> {
 
 	private final RestClient client;
