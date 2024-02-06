@@ -4,6 +4,7 @@ import org.javabubble.generator.model.TwitterHandle;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
+@SuppressWarnings("unused")
 class TwitterValidator implements HandleValidator<TwitterHandle> {
 
 	private final RestClient client;
