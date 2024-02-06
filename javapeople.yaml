@@ -434,6 +434,8 @@
 - name: "Java Champions"
   twitter: "Java_Champions"
   fediverse: "JavaChampions@mastodon.social"
+- name: "Java Duke"
+  fediverse: "duke@ijug.social"
 - name: "Java Forum Nord"
   fediverse: "JavaForumNord@ijug.social"
 - name: "Java Stammtisch Göttingen "
