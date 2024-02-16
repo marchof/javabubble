@@ -103,7 +103,7 @@ class ReadmeHTML extends TextArtifact {
 				ul( //
 						li(a("people.yaml").withHref(PeopleYaml.LOCATION), text(" - raw data")), //
 						li(a("people.json").withHref(PeopleJson.LOCATION), text(" - raw data")), //
-						li(a("following.csv").withHref(FollowingCSV.LOCATION), text(" - for Mastodon import")), //,
+						li(a("following.csv").withHref(FollowingCSV.LOCATION), text(" - for Mastodon following import")), //,
 						li(a("list.csv").withHref(ListCSV.LOCATION), text(" - for Mastodon List import")) //
 				), //
 				p("""
