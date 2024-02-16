@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public interface SiteOutput {
 
-	public static final Charset TEXT_ENCODING = StandardCharsets.UTF_8;
+	Charset TEXT_ENCODING = StandardCharsets.UTF_8;
 
 	Writer newTextDocument(String path) throws IOException;
 
