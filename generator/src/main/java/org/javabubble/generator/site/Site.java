@@ -17,7 +17,8 @@ public class Site {
 				new ReadmeHTML(bubble), //
 				new PeopleYaml(bubble), //
 				new PeopleJson(bubble), //
-				new FollowingCSV(bubble));
+				new FollowingCSV(bubble),
+				new ListCSV(bubble));
 	}
 
 	public void generate() throws IOException {
