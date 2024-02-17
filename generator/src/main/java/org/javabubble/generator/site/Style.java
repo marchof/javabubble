@@ -14,7 +14,7 @@ import j2html.utils.CSSMin;
 
 class Style {
 
-	// Adopt Github Stylesheet: https://github.com/sindresorhus/github-markdown-css
+	// Adopt GitHub Stylesheet: https://github.com/sindresorhus/github-markdown-css
 	private static final URI GITHUB_STYLESHEET = URI
 			.create("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css");
 

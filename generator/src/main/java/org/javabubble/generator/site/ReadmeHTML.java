@@ -57,7 +57,8 @@ class ReadmeHTML extends TextArtifact {
 						intro(), //
 						remarks(), //
 						export(), //
-						people() //
+						people(), //
+						copyright() //
 				).withClass("markdown-body") //
 		)));
 	}
@@ -127,22 +128,33 @@ class ReadmeHTML extends TextArtifact {
 		return tr( //
 				td(person.name()), //
 				td(String.join(", ", person.getUniqueHandles())), //
-				handleWithLink(person, person.fediverse(), SocialIcons.mastodon, "Mastodon"), //
-				handleWithLink(person, person.twitter(), SocialIcons.twitter, "Twitter"), //
-				handleWithLink(person, person.github(), SocialIcons.github, "GitHub"), //
-				handleWithLink(person, person.reddit(), SocialIcons.reddit, "Reddit"), //
-				handleWithLink(person, person.linkedin(), SocialIcons.linkedin, "LinkedIn"), //
-				handleWithLink(person, person.bluesky(), SocialIcons.bluesky, "Bluesky"), //
-				handleWithLink(person, person.youtube(), SocialIcons.youtube, "YouTube"), //
-				handleWithLink(person, person.twitch(), SocialIcons.twitch, "Twitch"));
+				handleWithLink(person.fediverse(), SocialIcons.mastodon, "Mastodon"), //
+				handleWithLink(person.twitter(), SocialIcons.twitter, "Twitter"), //
+				handleWithLink(person.github(), SocialIcons.github, "GitHub"), //
+				handleWithLink(person.reddit(), SocialIcons.reddit, "Reddit"), //
+				handleWithLink(person.linkedin(), SocialIcons.linkedin, "LinkedIn"), //
+				handleWithLink(person.bluesky(), SocialIcons.bluesky, "Bluesky"), //
+				handleWithLink(person.youtube(), SocialIcons.youtube, "YouTube"), //
+				handleWithLink(person.twitch(), SocialIcons.twitch, "Twitch"));
 	}
 
-	private DomContent handleWithLink(JavaPerson person, Handle handle, SocialIcons icon, String title) {
+	private DomContent handleWithLink(Handle handle, SocialIcons icon, String title) {
 		if (handle != null) {
 			return td(a(icon.svg()).withTitle(title + ": " + handle.getHandle()).withHref(handle.getWebLink()));
 		} else {
 			return td();
 		}
+	}
+
+	private DomContent copyright() {
+		return each( //
+				h2("License"), //
+				p( //
+					text("This work is licensed under "), //
+					a("CC BY-SA 4.0") //
+							.withHref("http://creativecommons.org/licenses/by-sa/4.0/") //
+							.withRel("license noopener noreferrer"), //
+					text(".")));
 	}
 
 }
