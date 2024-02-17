@@ -153,7 +153,6 @@ class ReadmeHTML extends TextArtifact {
 					text("This work is licensed under "), //
 					a("CC BY-SA 4.0") //
 							.withHref("http://creativecommons.org/licenses/by-sa/4.0/") //
-							.withTarget("_blank") //
 							.withRel("license noopener noreferrer"), //
 					text(".")));
 	}
