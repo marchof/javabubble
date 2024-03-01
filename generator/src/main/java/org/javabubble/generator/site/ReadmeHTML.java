@@ -2,15 +2,18 @@ package org.javabubble.generator.site;
 
 import static j2html.TagCreator.a;
 import static j2html.TagCreator.body;
+import static j2html.TagCreator.div;
 import static j2html.TagCreator.document;
 import static j2html.TagCreator.each;
 import static j2html.TagCreator.h1;
 import static j2html.TagCreator.h2;
 import static j2html.TagCreator.head;
 import static j2html.TagCreator.html;
+import static j2html.TagCreator.input;
 import static j2html.TagCreator.li;
 import static j2html.TagCreator.meta;
 import static j2html.TagCreator.p;
+import static j2html.TagCreator.script;
 import static j2html.TagCreator.table;
 import static j2html.TagCreator.tbody;
 import static j2html.TagCreator.td;
@@ -20,10 +23,15 @@ import static j2html.TagCreator.thead;
 import static j2html.TagCreator.title;
 import static j2html.TagCreator.tr;
 import static j2html.TagCreator.ul;
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 import java.io.IOException;
 import java.io.Writer;
+import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
+import j2html.utils.JSMin;
 import org.javabubble.generator.model.Handle;
 import org.javabubble.generator.model.JavaBubble;
 import org.javabubble.generator.model.JavaPerson;
@@ -39,6 +47,8 @@ class ReadmeHTML extends TextArtifact {
 	private static final String GITHUB_REPO_CONTRIBUTORS = GITHUB_REPO + "graphs/contributors";
 
 	private static final String CONTACT = "https://javabubble.social/@marcandsweep";
+
+	private static final String SEARCH_JS = "assets/search.js";
 
 	ReadmeHTML(JavaBubble bubble) {
 		super(bubble, LOCATION);
@@ -113,9 +123,10 @@ class ReadmeHTML extends TextArtifact {
 						"""));
 	}
 
-	private DomContent people() {
+	private DomContent people() throws IOException {
 		return each( //
 				h2("Social Handles"), //
+				searchField(), //
 				table( //
 						thead(tr( //
 								th("Name"), //
@@ -157,4 +168,17 @@ class ReadmeHTML extends TextArtifact {
 					text(".")));
 	}
 
+	private DomContent searchField() throws IOException {
+		try {
+			final var source = Files.readString(Paths.get(getClass().getResource(SEARCH_JS).toURI()), UTF_8);
+			return div(
+					input() //
+							.attr("id", "search-input") //
+							.withPlaceholder("Search"), //
+					script(JSMin.compressJs(source)) //
+			);
+		} catch (final URISyntaxException | NullPointerException e) {
+			throw new IOException("Can't read JavaScript file for handle search", e);
+		}
+	}
 }

@@ -41,6 +41,9 @@ class Style {
 			svg.socialicon:hover {
 			  fill: #138;
 			}
+			#search-input {
+			  margin-bottom: 1em;
+			}
 			""");
 
 	private static String loadGitHubCSS() throws IOException {
