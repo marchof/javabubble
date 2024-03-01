@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         rows.forEach((row) => {
             const namesLower = row.children[0].textContent.toLowerCase();
             const handlesLower = row.children[1].textContent.toLowerCase();
-            const rowText = namesLower + handlesLower;
+            const rowText = namesLower + "\n" + handlesLower;
             if (rowText.includes(searchTextLower)) {
                 row.style.display = "table-row";
             } else {
