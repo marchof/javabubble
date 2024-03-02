@@ -27,9 +27,6 @@ import static java.nio.charset.StandardCharsets.UTF_8;
 
 import java.io.IOException;
 import java.io.Writer;
-import java.net.URISyntaxException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 import j2html.utils.JSMin;
 import org.javabubble.generator.model.Handle;
@@ -169,16 +166,14 @@ class ReadmeHTML extends TextArtifact {
 	}
 
 	private DomContent searchField() throws IOException {
-		try {
-			final var source = Files.readString(Paths.get(getClass().getResource(SEARCH_JS).toURI()), UTF_8);
+		try (final var inputStream = getClass().getResourceAsStream(SEARCH_JS)) {
+			final var source = new String(inputStream.readAllBytes(), UTF_8);
 			return div(
 					input() //
 							.attr("id", "search-input") //
 							.withPlaceholder("Search"), //
 					script(JSMin.compressJs(source)) //
 			);
-		} catch (final URISyntaxException | NullPointerException e) {
-			throw new IOException("Can't read JavaScript file for handle search", e);
 		}
 	}
 }
