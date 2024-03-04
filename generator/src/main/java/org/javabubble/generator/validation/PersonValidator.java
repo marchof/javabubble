@@ -3,7 +3,6 @@ package org.javabubble.generator.validation;
 import org.javabubble.generator.model.FediverseHandle;
 import org.javabubble.generator.model.GitHubHandle;
 import org.javabubble.generator.model.JavaPerson;
-import org.javabubble.generator.model.RedditHandle;
 
 public class PersonValidator {
 
