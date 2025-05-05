@@ -5,6 +5,10 @@ on:
   pull_request:
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   generate:
     if: github.repository_owner == 'marchof'
@@ -20,10 +24,9 @@ jobs:
       working-directory: generator
 
     # Publish to AWS Bucket
-    - uses: aws-actions/configure-aws-credentials@v4
+    - uses: aws-actions/configure-aws-credentials@v4.1.0
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        role-to-assume: arn:aws:iam::830482727482:role/github-workflow-javabubble
         aws-region: eu-central-1
       if: github.ref == 'refs/heads/main'
     - run: |
